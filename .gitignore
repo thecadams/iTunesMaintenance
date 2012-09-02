@@ -1,0 +1,6 @@
+.DS_Store
+windows/bin
+windows/obj
+windows/*.suo
+windows/*.user
+windows/_ReSharper.*
