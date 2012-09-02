@@ -1,0 +1,256 @@
+<?xml version='1.0'?>
+<!DOCTYPE signatures SYSTEM "file://localhost/System/Library/DTDs/BridgeSupport.dtd">
+<signatures version='1.0'>
+<enum value='1799449698' name='iTunesEKndAlbumListing'/>
+<enum value='1799570537' name='iTunesEKndCdInsert'/>
+<enum value='1800696427' name='iTunesEKndTrackListing'/>
+<enum value='1800426310' name='iTunesEPlSFastForwarding'/>
+<enum value='1800426352' name='iTunesEPlSPaused'/>
+<enum value='1800426320' name='iTunesEPlSPlaying'/>
+<enum value='1800426322' name='iTunesEPlSRewinding'/>
+<enum value='1800426323' name='iTunesEPlSStopped'/>
+<enum value='1799449708' name='iTunesERptAll'/>
+<enum value='1800564815' name='iTunesERptOff'/>
+<enum value='1800564785' name='iTunesERptOne'/>
+<enum value='1800565827' name='iTunesERtKComputed'/>
+<enum value='1800565845' name='iTunesERtKUser'/>
+<enum value='1800630337' name='iTunesESpKBooks'/>
+<enum value='1800630342' name='iTunesESpKFolder'/>
+<enum value='1800630343' name='iTunesESpKGenius'/>
+<enum value='1800630357' name='iTunesESpKITunesU'/>
+<enum value='1800630348' name='iTunesESpKLibrary'/>
+<enum value='1800630345' name='iTunesESpKMovies'/>
+<enum value='1800630362' name='iTunesESpKMusic'/>
+<enum value='1800302446' name='iTunesESpKNone'/>
+<enum value='1800630355' name='iTunesESpKPartyShuffle'/>
+<enum value='1800630352' name='iTunesESpKPodcasts'/>
+<enum value='1800630349' name='iTunesESpKPurchasedMusic'/>
+<enum value='1800630356' name='iTunesESpKTVShows'/>
+<enum value='1800630860' name='iTunesESrAAlbums'/>
+<enum value='1799449708' name='iTunesESrAAll'/>
+<enum value='1800630866' name='iTunesESrAArtists'/>
+<enum value='1800630851' name='iTunesESrAComposers'/>
+<enum value='1800630870' name='iTunesESrADisplayed'/>
+<enum value='1800630867' name='iTunesESrASongs'/>
+<enum value='1799439172' name='iTunesESrcAudioCD'/>
+<enum value='1799644534' name='iTunesESrcDevice'/>
+<enum value='1800433508' name='iTunesESrcIPod'/>
+<enum value='1800169826' name='iTunesESrcLibrary'/>
+<enum value='1800225604' name='iTunesESrcMP3CD'/>
+<enum value='1800697198' name='iTunesESrcRadioTuner'/>
+<enum value='1800628324' name='iTunesESrcSharedLibrary'/>
+<enum value='1800760939' name='iTunesESrcUnknown'/>
+<enum value='1800819532' name='iTunesEVSzLarge'/>
+<enum value='1800819533' name='iTunesEVSzMedium'/>
+<enum value='1800819539' name='iTunesEVSzSmall'/>
+<enum value='1800823885' name='iTunesEVdKMovie'/>
+<enum value='1800823894' name='iTunesEVdKMusicVideo'/>
+<enum value='1800302446' name='iTunesEVdKNone'/>
+<enum value='1800823892' name='iTunesEVdKTVShow'/>
+<enum value='1819763828' name='iTunesEnumDetailed'/>
+<enum value='1819767668' name='iTunesEnumStandard'/>
+<class name='iTunesApplication'>
+<method selector='EQEnabled'>
+<retval type='B'/>
+</method>
+<method selector='fixedIndexing'>
+<retval type='B'/>
+</method>
+<method selector='frontmost'>
+<retval type='B'/>
+</method>
+<method selector='fullScreen'>
+<retval type='B'/>
+</method>
+<method selector='mute'>
+<retval type='B'/>
+</method>
+<method selector='playOnce:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='printPrintDialog:withProperties:kind:theme:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setEQEnabled:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setFixedIndexing:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setFrontmost:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setFullScreen:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setMute:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setVisualsEnabled:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='visualsEnabled'>
+<retval type='B'/>
+</method>
+</class>
+<class name='iTunesArtwork'>
+<method selector='downloaded'>
+<retval type='B'/>
+</method>
+</class>
+<class name='iTunesAudioCDPlaylist'>
+<method selector='compilation'>
+<retval type='B'/>
+</method>
+<method selector='setCompilation:'>
+<arg type='B' index='0'/>
+</method>
+</class>
+<class name='iTunesBrowserWindow'>
+<method selector='minimized'>
+<retval type='B'/>
+</method>
+<method selector='setMinimized:'>
+<arg type='B' index='0'/>
+</method>
+</class>
+<class name='iTunesEQPreset'>
+<method selector='modifiable'>
+<retval type='B'/>
+</method>
+<method selector='setUpdateTracks:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='updateTracks'>
+<retval type='B'/>
+</method>
+</class>
+<class name='iTunesEQWindow'>
+<method selector='minimized'>
+<retval type='B'/>
+</method>
+<method selector='setMinimized:'>
+<arg type='B' index='0'/>
+</method>
+</class>
+<class name='iTunesItem'>
+<method selector='exists'>
+<retval type='B'/>
+</method>
+<method selector='playOnce:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='printPrintDialog:withProperties:kind:theme:'>
+<arg type='B' index='0'/>
+</method>
+</class>
+<class name='iTunesPlaylist'>
+<method selector='setShuffle:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='shuffle'>
+<retval type='B'/>
+</method>
+<method selector='visible'>
+<retval type='B'/>
+</method>
+</class>
+<class name='iTunesPrintSettings'>
+<method selector='collating'>
+<retval type='B'/>
+</method>
+<method selector='exists'>
+<retval type='B'/>
+</method>
+<method selector='playOnce:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='printPrintDialog:withProperties:kind:theme:'>
+<arg type='B' index='0'/>
+</method>
+</class>
+<class name='iTunesTrack'>
+<method selector='bookmarkable'>
+<retval type='B'/>
+</method>
+<method selector='compilation'>
+<retval type='B'/>
+</method>
+<method selector='enabled'>
+<retval type='B'/>
+</method>
+<method selector='gapless'>
+<retval type='B'/>
+</method>
+<method selector='podcast'>
+<retval type='B'/>
+</method>
+<method selector='setBookmarkable:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setCompilation:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setEnabled:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setGapless:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setShufflable:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setUnplayed:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='shufflable'>
+<retval type='B'/>
+</method>
+<method selector='unplayed'>
+<retval type='B'/>
+</method>
+</class>
+<class name='iTunesUserPlaylist'>
+<method selector='setShared:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='shared'>
+<retval type='B'/>
+</method>
+<method selector='smart'>
+<retval type='B'/>
+</method>
+</class>
+<class name='iTunesWindow'>
+<method selector='closeable'>
+<retval type='B'/>
+</method>
+<method selector='collapseable'>
+<retval type='B'/>
+</method>
+<method selector='collapsed'>
+<retval type='B'/>
+</method>
+<method selector='resizable'>
+<retval type='B'/>
+</method>
+<method selector='setCollapsed:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setVisible:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setZoomed:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='visible'>
+<retval type='B'/>
+</method>
+<method selector='zoomable'>
+<retval type='B'/>
+</method>
+<method selector='zoomed'>
+<retval type='B'/>
+</method>
+</class>
+</signatures>
