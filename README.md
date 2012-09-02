@@ -55,6 +55,13 @@ A few extra notes:
 - No subfolders allowed in any album folder.
 - For albums with multiple discs, create multiple album folders: `[Artist] - Album Name Disc 1`, `[Artist] - Album Name Disc 2`, `[Artist] - Album Name Disc 3`…
 
+You end up with a playlist for each album, plus one for the Singles folder:
+
+![iTunes playlists](http://dl.dropbox.com/u/417997/GitHub/iTunesMaint%20Playlists.png)
+
+![iPhone playlists](http://dl.dropbox.com/u/417997/GitHub/iPhone%20iTunesMaint%20Playlists.png)
+
+
 
 ## Functionality
 
