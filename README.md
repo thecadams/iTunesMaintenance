@@ -15,7 +15,13 @@ I created this utility to keep my iTunes library in check. I wanted to:
 - Keep every music file on the computer in a few controlled locations (see below)
 - Delete crap music from my library AND hard drive in one step.
 
-I was doing all this manually and decided to find a better way. This tool replaces hours of tedium with a few seconds of watching a command prompt!
+I was doing all this manually and decided to find a better way. This tool replaces hours of tedium with a few seconds of watching a command prompt.
+
+You end up with a playlist for each album, plus one for the Singles folder:
+
+![iTunes playlists](http://dl.dropbox.com/u/417997/GitHub/iTunesMaint%20iTunes.png)
+
+![iPhone playlists](http://dl.dropbox.com/u/417997/GitHub/iTunesMaint%20iPhone.png)
 
 ## Library Structure
 
@@ -54,14 +60,6 @@ A few extra notes:
 - No files allowed in the root albums folder.
 - No subfolders allowed in any album folder.
 - For albums with multiple discs, create multiple album folders: `[Artist] - Album Name Disc 1`, `[Artist] - Album Name Disc 2`, `[Artist] - Album Name Disc 3`…
-
-You end up with a playlist for each album, plus one for the Singles folder:
-
-![iTunes playlists](http://dl.dropbox.com/u/417997/GitHub/iTunesMaint%20Playlists.png)
-
-![iPhone playlists](http://dl.dropbox.com/u/417997/GitHub/iPhone%20iTunesMaint%20Playlists.png)
-
-
 
 ## Functionality
 
