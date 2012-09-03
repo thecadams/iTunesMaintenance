@@ -30,27 +30,19 @@ Obviously I designed this utility for MY iTunes library, not yours. My iTunes li
     ~/Music on Mac, or My Music on Windows
      |
      \- iTunes (the iTunes library)
-     |
      \- Singles
-     |   |
      |   \- [Artist] - Track Name.mp3
-     |   |
      |   \- [Artist] - Another Track.mp3
-     |   |
      |   \- ...
      |
      \- Albums
         |
         \- [Artist] - Album Name
-        |   |
         |   \- track01.mp3
-        |   |
         |   \- track02.mp3
-        |   |
         |   \- ...
         |
         \- [Artist] - Album Name ...
-            |
             \- ...
 
 A few extra notes:
