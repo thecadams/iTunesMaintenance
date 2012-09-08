@@ -36,7 +36,7 @@ MusicFileExtensions = ["mp3", "m4a", "aac"]
 IgnoredFilenames = ["thumbs.db", "desktop.ini", ".ds_store"]
 AlbumNameStartCharacter = "["
 
-$allTracks = $iTunes.sources.objectWithName("Library").userPlaylists.objectWithName("Music").fileTracks
+$allTracks = $iTunes.sources.objectWithName("Library").userPlaylists.objectWithName("Music").fileTracks.select {|t| t.location != nil}
 $tracksByLocation = Hash[$allTracks.collect {|t| [t.location.path, t]}]
 $tracksByFolder = {}
 $allTracks.each do |t| ($tracksByFolder[t.location.getParentDir] ||= []) << t end
@@ -109,7 +109,7 @@ if rulesBroken == true then exit 1 end
 
 # Delete Crap Tracks
 # Put 1-star rated tracks in the Trash
-$allTracks.select {|t| t.rating == 20}.each do |t|
+$allTracks.select {|t| t.location != nil && t.rating == 20}.each do |t|
 	puts "Deleting crap track: #{t.location.path}"
 	$allTracks.delete t
 	$tracksByLocation.delete t.location
